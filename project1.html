@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+
+</head>
+<link rel="stylesheet" href="css/css.css">
+<style>
+    body {
+        /* display: inline-block; */
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(image/back2.jpg);
+        background-size: 1345px 1000px;
+        ;
+        background-repeat: no-repeat;
+        /* height: 770px;
+        width: 1000px; */
+    }
+
+    .left {
+        display: inline-block;
+        border: 3px solid rebeccapurple;
+        background-color: rgb(230, 221, 230);
+        position: absolute;
+        left: 20px;
+        top: 11px;
+    }
+
+    .left img {
+        width: 70px;
+        /* height: 20px; */
+    }
+
+    .left div {
+        text-align: center;
+        font-weight: bolder;
+        color: #64c6cf;
+        font-size: 11px;
+        background-color: black;
+    }
+
+    .center {
+        color: white;
+        border: 2px solid rebeccapurple;
+        border-radius: 50px;
+        background-color: rgb(230, 221, 230);
+        display: block;
+        width: 41%;
+        margin: 22px auto;
+
+    }
+
+    .navbar {
+        margin: 10px 6px;
+    }
+
+    .navbar li {
+        /* margin: 10px 10px; */
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        margin: 10px 10px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(224, 23, 23);
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 22px;
+        top: 22px;
+        /* border: 2px solid rebeccapurple; */
+        /* background-color: rgb(230, 221, 230); */
+    }
+
+    .btn {
+        margin: 0px 6px;
+        padding: 5px 10px;
+        font-weight: bold;
+        border: 2px solid rebeccapurple;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: royalblue;
+    }
+
+    .container {
+        border: 3px solid green;
+        border-radius: 75px;
+        margin: 75px 78px;
+        padding: 5px 30px;
+        width: 30%;
+        color: greenyellow;
+        background-color: #0e393d;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 220px;
+        margin: 15px auto;
+    }
+
+
+    .form-grp input {
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 6px auto;
+        padding: 4px;
+        width: 71%;
+        border: 2px solid #181301;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="image/logo2.jpg" alt="">
+            <div>Travel service</div>
+        </div>
+        <div class="center">
+            <div class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">TRAVEL MODE</a></li>
+                <li><a href="#">PLACES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </div>
+        </div>
+        <div class="right">
+            <Button class="btn">Call us</Button>
+            <Button class="btn">E-mail</Button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Best tours and travel service</h1>
+        <form action="noaction.php">
+            <div class="form-grp">
+                <input type="text" placeholder="kuch enter karo">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="kuch enter karo">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="kuch enter karo">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="kuch enter karo">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="kuch enter karo">
+            </div>
+            <button class="btn">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
